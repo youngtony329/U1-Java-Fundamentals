@@ -27,7 +27,7 @@ public static void main(String[] args){
   double num3 = "4.5";  
 }
 ```
-In all Java programs a variable's type and value must match. Always. This seems simple, but on down the road this will cause your programs to bork.
+In all Java programs a variable's type and value must match. Always. This seems simple, but on down the road this will cause your programs to bork. Also note the semi-colon at the end of each line. The importance of this will be explained later.
 
 ### Identifiers
 
