@@ -15,7 +15,7 @@ When you create a method, you can also define **parameters**, and those paramete
  The variables storing the data from these methods must also match the return data-type.
 
 ```java
-public class MathMethods{
+public class L6{
     public static void main(String[] args){
         int value1 = 4;
         double value2 = 1.2;
@@ -53,8 +53,10 @@ appleSum = 3
 ```
 There are two problems with this approach, first and most important being that the programmer is keeping track of the total with literals instead of allowing the computer to do it. The second, less obvious, is that the best computer programs attempt to simulate the real-world and this program implies that the apple-picker first picks 1, then 2, then 3. 
 
+A better solution is shown below. Try this in the  [**SANDBOX**][sandbox]
+
 ```java
-public class ApplePicker{
+public class L6{
     public static void main(String[] args){
         
         int applesInHand = 1;
@@ -81,7 +83,7 @@ Notice how the variable `applesInBasket` is being re-used. Programmers LOVE to m
 
 The program above could be re-written as:
 ```java
-public class ApplePicker{
+public class L6{
     public static void main(String[] args){
         
         int applesInHand = 1;
@@ -114,10 +116,10 @@ x++     equivalent to       x = x + 1;  or  x+=1;
 x--     equivalent to       x = x - 1;  or  x-=1; 
 ```
 
-This allows us to make our ApplePicker program even MORE efficient by eliminating a variable altogether.
+This allows us to make our ApplePicker program even MORE efficient by eliminating a variable altogether. Try this in the  [**SANDBOX**][sandbox]
 
 ```java
-public class ApplePicker{
+public class L6{
     public static void main(String[] args){
         
         int applesInBasket = 0; 

@@ -4,10 +4,10 @@
 
 ## Basic Java Program
 
-Below is an example Java program. A Java program consists of three components: classes, methods and objects. 
+Below is an example Java program. A Java program consists of three components: classes, methods and objects. Copy/Paste the code below into the [**SANDBOX**][sandbox]. Press the first green triangle on the line guide to run, or press the green triangle at the top right.
 
 ```java
-class Hello{
+public class L1{
     
     public static void main(String[] args){
         System.out.println("Hello World");

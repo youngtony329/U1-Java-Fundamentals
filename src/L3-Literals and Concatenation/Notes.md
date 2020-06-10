@@ -5,10 +5,10 @@
 
 ## Literal Values
 
-A [**literal value**](https://www.tutorialspoint.com/What-are-literals-in-Java) is a value that is written directly into the code. Sometimes this is referred to as **hard-coded** data. 
+A [**literal value**](https://www.tutorialspoint.com/What-are-literals-in-Java) is a value that is written directly into the code. Sometimes this is referred to as **hard-coded** data. Try this in the [**SANDBOX**][sandbox].
 
 ```java
-public class Literals{
+public class L3{
     public static void main(String[] args){
         
         int literalValue = 5;
@@ -63,10 +63,10 @@ A `String` literal will print EXACTLY what is included inside the double quotati
 
 ## Concatenation
 
-[**String Concatenation**](https://www.javatpoint.com/string-concatenation-in-java) uses the `+` to add, or display, two `Strings` together. It can also be used to add a variable's value, as a `String`, to the output.
+[**String Concatenation**](https://www.javatpoint.com/string-concatenation-in-java) uses the `+` to add, or display, two `Strings` together. It can also be used to add a variable's value, as a `String`, to the output. Try this in the  [**SANDBOX**][sandbox]
 
 ```java
-public class StringConcat{
+public class L3{
     public static void main(String[] args){
         
         String message1 = "The store has ";

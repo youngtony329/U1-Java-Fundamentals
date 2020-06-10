@@ -19,10 +19,10 @@ As you progress through this course, you will learn about the operators in each 
 
 ![](arithmetic-operations.png)
 
-These operators work precisely how they do in Math or Algebra class. The program below illustrates the use of a few of these operators. 
+These operators work precisely how they do in Math or Algebra class. The program below illustrates the use of a few of these operators. Try this in the [**SANDBOX**][sandbox]
 
 ```java
-public class Wages{
+public class L5{
     public static void main(String[] args){
         
         double basePay = 7.25;
@@ -51,17 +51,17 @@ Lastly, wages is display to the user with information about what the data is. It
 Let's look at what's wrong with this program. Use comments and edit the notes to add your observations.
 
 ```java
-public class Wages{
+public class L5{
     public static void main(String[] args){
         
         double basePay = 7.25;
         double hoursWeek1 = 16.5;
         double hoursWeek2 = 23.75;
 
-        double totalHours = 40.25;
-        7.25 * 40.25;
+        double totalHours = 40.25;      //your notes here
+        7.25 * 40.25;                   //your notes here
         
-        System.out.println("Your bi-weekly paycheck is: $" + 291.8125);
+        System.out.println("Your bi-weekly paycheck is: $" + 291.8125);     //your notes here
     }
 }
 ```
@@ -70,23 +70,26 @@ public class Wages{
 
 Pop over into the [SANDBOX][sandbox] and try these two programs.
 ```java
-public static void main(String[] args){
-  
-    int fraction = 1/2;
-    
-    System.out.println(fraction);
-
+public class L5{
+    public static void main(String[] args){
+        
+        int fraction = 1/2;
+        System.out.println(fraction);
+                
+    }
 }
 ```
 
 What's the output? `your answer here`
 
 ```java
-public static void main(String[] args){
-    
-    double fraction = 1/2;
-    
-    System.out.println(fraction); 
+public class L5{
+    public static void main(String[] args){
+        
+        double fraction = 1/2;        
+        System.out.println(fraction); 
+
+    }
 }
 ```
 

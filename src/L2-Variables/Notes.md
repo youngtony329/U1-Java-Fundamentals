@@ -21,11 +21,14 @@ Java is a *strict strongly-typed* language. Strongly-typed means that every comm
  
  The following code segment has errors. Can you point them out?
  ```java
-public static void main(String[] args){
-  int num1 = 3.4;
-  boolean num2 = false;
-  double num3 = "4.5";  
+public class L2{
+    public static void main(String[] args){
+      int num1 = 3.4;
+      boolean num2 = false;
+      double num3 = "4.5";  
+    }
 }
+
 ```
 In all Java programs a variable's type and value must match. Always. This seems simple, but on down the road this will cause your programs to bork. Also note the semi-colon at the end of each line. The importance of this will be explained later.
 
@@ -63,14 +66,16 @@ We programmers don't like to spend time deciphering someone else's code-style. T
 
 ### Displaying Variable Values
 
-Contained in the definitions of the variable types are instruction to Java on how to display them. We will talk about this more later, but that method is called the [**toString()**](https://www.tutorialspoint.com/java/number_tostring.htm) method. This allows us to output a variable's value to the console.
+Contained in the definitions of the variable types are instruction to Java on how to display them. We will talk about this more later, but that method is called the [**toString()**](https://www.tutorialspoint.com/java/number_tostring.htm) method. This allows us to output a variable's value to the console. Try this in the [**SANDBOX**][sandbox].
 
 ```java
-public static void main(String[] args){
-    firstName = "George";
-    age = 16;
-    System.out.println(firstName);
-    System.out.println(age);
+public class L2{
+    public static void main(String[] args){
+        firstName = "George";
+        age = 16;
+        System.out.println(firstName);
+        System.out.println(age);
+    }
 }
 ```
 In this example we can see that the variable's name is being passed into the `println` command which then displays the variable value into the console but calling that hidden `.toString()` method. 

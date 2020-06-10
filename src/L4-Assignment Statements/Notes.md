@@ -21,10 +21,10 @@ The assignment operator reads "value is assigned 5". This is the technical under
 
 Each time you declare a variable, it creates space on the user's computer to store data. Even though this is very small, too many variables or even declaring un-used variables could bog down a program. 
 
-Variables can be re-used, or rather re-assigned, and can only hold 1 value at a time. The value of a variable is the last assignment statement called. 
+Variables can be re-used, or rather re-assigned, and can only hold 1 value at a time. The value of a variable is the last assignment statement called. Try this in the  [**SANDBOX**][sandbox]
 
 ```java
-class Reusable{
+class L4{
     public static void main(String[] args){
         
         int number = 5; 
@@ -67,7 +67,7 @@ Back to re-assignment, in the program above, Java first reads and assigns 5 to `
 
 Sometimes you may want a variable that can't be re-assigned. These are called [**constant values**](https://www.tutorialspoint.com/what-is-a-constant-and-how-to-define-constants-in-java) and they are declared using the keyword `final`.
 
-The naming convention used for a constant values identifier is to use all upper-case letters. 
+The naming convention used for a constant values identifier is to use all upper-case letters.
 
 ```java
 public class Constants{
