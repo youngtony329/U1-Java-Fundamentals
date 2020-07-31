@@ -16,7 +16,7 @@ public class L1{
 ```
 We will be discussing these three things AT LENGTH in later chapters, but just to give a very basic idea, a class defines objects which execute methods to carry out a task. 
 
-Our program above shows create a class called `Hello` and in that class is a method, `main`. Notice these names are [**case-sensitive**](https://www.collinsdictionary.com/us/dictionary/english/case-sensitive) meaning that the class names `Hello`,`hello` and `hEllO` could be three different classes. Same follows for method names. 
+Our program above creates a class called `L1` and in that class is a method, `main`. Notice these names are [**case-sensitive**](https://www.collinsdictionary.com/us/dictionary/english/case-sensitive) meaning that the class names `Hello`,`hello` and `hEllO` could be three different classes. Same follows for method names. 
 
 A method is one specific task that objects defined by the class can execute. For example, the ```main``` method above. However, no object is needed to call the main method as it will be called by the Java compiler and interpreter when we run the program.
 
